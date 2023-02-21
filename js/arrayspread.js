@@ -17,4 +17,33 @@ arr2.push(55)
 // console.log(arr1);
 // console.log(arr2);
 
+// destructuring 
 const arr = [1,2,3,4,5,6,7];
+
+const [first, second,...remaining] =arr;
+// console.log(first, second);
+// console.log(remaining);
+
+
+// object things
+const person1 = {
+    name: 'herp alom',
+    age: 34,
+    phone: '02348',
+    address: 'bari nai',
+    p: [1,2,3,4]
+}
+
+// const person2 = {...person1};
+
+// person2.isMale = true;
+// console.log(person2)
+
+// const {name, address }=person
+// console.log(name, address);
+// const {address:bari, name, age, phone, p} = person;
+// console.log(name,age,phone)
+// console.log(bari)
+// let{name,address,...remain} = person;
+// console.log(remain)
+
